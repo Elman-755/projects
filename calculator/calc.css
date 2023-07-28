@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(11, 151, 216);
+}
+
+.element h1{
+    color: black;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.element{
+    /* width: 50%; */
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+
+.result {
+    margin-bottom: 15px;
+}
+.result input {
+    width: 650px;
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    border: 2px solid grey ;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.equal{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    
+}
+.equal button{  
+    width: 317px;
+    height: 50px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    border: 2px solid grey ;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    background-color: #fff;
+    margin: 10px;
+}
+
+.equal button:hover{
+    background-image: linear-gradient(rgb(243, 200, 7),rgb(142, 31, 194));
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transition:;
+    -moz-transition:;
+    -ms-transition:;
+    -o-transition:;
+}
+
+.items input{
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    border: 2px solid grey ;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#operator{
+    
+}
