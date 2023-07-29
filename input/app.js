@@ -1,6 +1,6 @@
 findNumbers = ()=>{
     let inputText = document.getElementById('number').value;
-    let numbers = inputText.split(' ').map(num => parseInt(num.trim()));
+    let numbers = inputText.split(/[' ' , \ / + -]/).map(num => parseInt(num.trim()));
     let oddNumbers = [];
     let evenNumbers = [];
     for(let i=0;i<numbers.length;i++){
