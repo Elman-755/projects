@@ -13,7 +13,7 @@ equalValue.addEventListener('click', function(){
 
     const result = totalResult({a,b,operation})
     
-    resultValue.value = result;
+    resultValue.innerText = result;
     
 })
 
@@ -21,7 +21,7 @@ resetValue.addEventListener('click', function(){
     firstNumValue.value = '';
     secondNumValue.value = '';
     operatorValue.value = '';
-    resultValue.value = '';
+    resultValue.innerText = '';
 
 })
 

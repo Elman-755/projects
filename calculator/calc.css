@@ -28,12 +28,13 @@ body{
 .result {
     margin-bottom: 15px;
 }
-.result input {
+.result h1{
+    background-color: #fff;
     width: 650px;
     height: 50px;
     text-align: center;
     font-size: 40px;
-    font-weight: bolder;
+    /* font-weight: bolder; */
     border: 2px solid grey ;
     border-radius: 15px;
     -webkit-border-radius: 15px;
