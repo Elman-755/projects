@@ -54,7 +54,7 @@ body{
     height: 50px;
     line-height: 25px;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500;
     border: 2px solid grey ;
     border-radius: 15px;
@@ -67,7 +67,7 @@ body{
 }
 
 .equal button:hover{
-    background-image: linear-gradient(rgb(243, 200, 7),rgb(142, 31, 194));
+    background-image: linear-gradient(rgb(35, 243, 7),rgb(201, 221, 19));
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);

@@ -24,6 +24,6 @@ findNumbers = ()=>{
       document.getElementById('number').value = '';
     
   }
-  
- 
 
+let person = {}
+  

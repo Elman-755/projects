@@ -1,0 +1,41 @@
+body{
+    background-image: url(../clock/images/earth.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.calendar{
+    position: absolute;
+    top: 5%;
+
+}
+
+.calendar .date span{
+    font-size: 100px;
+    color: #3FFF00;
+    text-shadow: 5px 5px 6px #76FF7A;
+    overflow: hidden;
+    filter:blur(100%);
+    filter: brightness(200%);
+    -webkit-filter: brightness(200%);
+}
+.calendar .clock span{
+    font-size: 200px;
+    color: #3FFF00;
+    text-shadow: 5px 5px 6px #76FF7A;
+    overflow: hidden;
+    filter:blur(100%);
+    -webkit-filter:blur(100%);
+    filter: brightness(200%);
+}
